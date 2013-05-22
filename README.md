@@ -39,9 +39,9 @@ The trick is to insert a field like
 
 Here, the nested `FILENAME` field gets the full absolute path of the document, 
 including the document file name
-(e.g. `C:\Users\George\Documents\Party\Invitation.docx`)
-`\\..\\` is used to go to the document's path, 
-(e.g. `C:\Users\George\Documents\Party`)
+(e.g. `C:\Users\George\Documents\Party\Invitation.docx`).
+The subsequent `\\..\\` is used to go to the document's path
+(e.g. `C:\Users\George\Documents\Party`),
 so whatever comes after is a path relative to the document's location.
 
 Inserting this field by hand is a pain, for various reasons.
