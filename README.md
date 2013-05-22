@@ -16,8 +16,8 @@ since creating a "Link" will insert an absolute path reference that will only wo
 
 `RelativeImage` fixes this. 
 Copy&paste it to your Normal.dotm, and add a button to your quick access bar.
-Run it, and you will be given a file selection dialog. 
-You must select a picture in the same directory as the document, or a subdirectory of that.
+Click the button, and you will be shown a file selection dialog. 
+You must select a picture in the same directory as the document, or a subdirectory of it.
 
 The macro will insert this picture using some tricks, 
 so that if someone else updates the entire document (by Ctrl+A, F9),
